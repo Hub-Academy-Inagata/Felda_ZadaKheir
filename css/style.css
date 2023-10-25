@@ -119,6 +119,13 @@ h6 {
     margin-top: 8vh;
     margin-bottom: 28vh;
 }
+#home img {
+    width: 65px;
+    height: auto;
+    position: absolute;
+    right: 4%;
+    transform: translate(90%, -240%);
+}
 
 
 /* Product Start */
