@@ -565,6 +565,9 @@ body {
         margin-top: 0px;
         transform: translate(0%, 90%);
     }
+    #buying .img-choose {
+        display: none;
+    }
     .btn-cart {
         width: 100%;
     }
