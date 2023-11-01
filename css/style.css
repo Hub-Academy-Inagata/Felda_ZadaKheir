@@ -114,6 +114,7 @@ h6 {
 #home h1 {
     margin-top: 24vh;
     padding-top: 16vh;
+    font-size: 64px;
 }
 #home .btn-primary {
     margin-top: 8vh;
@@ -526,17 +527,18 @@ body {
         height: 100%;
     }
     #support img {
-        left: 60%;
-        transform: translate(-100%, -50%);
+        left: 40%;
+        transform: translate(-100%, -56%);
     }
     #support h3 {
-        padding-left: 150px;
+        padding-left: 50px;
+        margin-top: 64px;
     }
     #support p {
-        padding-left: 150px;
+        padding-left: 50px;
     }
     #support form{
-        margin-left: 78px;
+        margin-left: 0px;
     }
     #support {
         padding-bottom: 12px;
@@ -592,6 +594,9 @@ body {
         right: 12%;
         transform: translate(90%, -240%);
     }
+    #home h1{
+        font-size: 48px;
+    }
     .btn-buy {
         width: 100%;
     }
@@ -602,6 +607,9 @@ body {
     #buying img {
         display: flex;
         flex-direction: row;
+    }
+    #buying .img-choose {
+        display: none;
     }
     #footer-last img {
         height: 28px;
@@ -624,11 +632,18 @@ body {
         align-items: center;
     }
     #support img {
-        left: 80%;
+        left: 100%;
         transform: translate(-100%, -10%);
     }
     #support h3 {
-        padding-top: 320px;
+        padding-top: 460px;
+        left: 90%;
+        transform: translate(-20%, -5%);
+    }
+    #support p {
+        padding-left: 0px;
+        left: 90%;
+        transform: translate(4%, -5%);
     }
     #support form{
         margin-top: 14px;
